@@ -7,6 +7,8 @@
     <title>My Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome CDN link for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -32,7 +34,7 @@
             <p>A passionate Web Developer</p>
             <br>
             <a href="#contact" class="cta-btn">Contact Me</a>
-            <img src="New folder/img/aprilia-rs-457-2024-5120x3114-12868.jpg"  >
+            <img src="New folder/img/aprilia-rs-457-2024-5120x3114-12868.jpg" alt="Hero Image">
         </div>
     </section>
 
@@ -93,33 +95,49 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contactForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+    <!-- Courses Completed Section -->
+<section id="courses-completed">
+    <div class="container">
+        <h2>Courses Completed</h2>
+        <div class="courses-container">
+            <div class="course-card">
+                <h3>Course One: Web Development</h3>
+                <p>A comprehensive course on HTML, CSS, and JavaScript, covering the basics to advanced techniques.</p>
+               <!-- <a href="#">View Course Details</a> -->
+            </div>
+            <div class="course-card">
+                <h3>Course Two: React.js</h3>
+                <p>Learn the fundamentals of React.js, including components, state management, and routing.</p>
+              <!--  <a href="#">View Course Details</a> -->
+            </div>
+            <div class="course-card">
+                <h3>Course Three: Full-Stack Development</h3>
+                <p>A deep dive into full-stack development, covering front-end and back-end technologies such as Node.js, Express, and MongoDB.</p>
+                <!--<a href="#">View Course Details</a> -->
+            </div>
+        </div>
+    </div>
+</section>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+    
 
-                <button type="submit">Send Message</button>
-            </form>
+            <!-- Social Media Icons -->
+            <section id="contact">
+            <div class="social-icons">
+                <h2>Contact Me</h2>
+                <a href="mailto:23bit010@kprcas.ac.in" target="_blank" title="Email"> <i class="fas fa-envelope"></i> Email</a>
+                <a href="https://github.com/dharani136" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/dharani-m-96a207316/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
         </div>
     </section>
 
     <section id="resume">
-        <div class="container" >
+        <div class="container">
             <a href="assets/resume.pdf" download class="resume-btn">Download Resume</a>
         </div>
     </section>
-    
-
-
 
     <!-- Footer -->
     <footer>
